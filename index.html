@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Tccstfi College</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+                                                    <!-- NAVBAR -->
+
+<nav>
+  <div class="logo" onclick="go('home')">
+    <div class="logo-box">
+       <img src="/images/logo.png" alt="tccstfi_logo" class="tccstfi_logo">
+    </div>
+    <div class="logo-text">Tccstfi College<small>Excellence in Education</small></div>
+  </div>
+  <div class="nav-links" id="nl">
+    <a data-p="home"       onclick="go('home')"        class="active">Home</a>
+    <a data-p="about"      onclick="go('about')">About</a>
+    <a data-p="courses"    onclick="go('courses')">Courses</a>
+    <a data-p="facilities" onclick="go('facilities')">Facilities</a>
+    <a data-p="partners"   onclick="go('partners')">Partner Companies</a>
+    <a data-p="admission"  onclick="go('admission')"   class="cta">Admission</a>
+  </div>
+  <div class="burger" onclick="toggleMob()"><span></span><span></span><span></span></div>
+</nav>
+
+<div class="mob-nav" id="mn">
+  <a data-m="home"       onclick="go('home');closeMob()"        class="active">Home</a>
+  <a data-m="about"      onclick="go('about');closeMob()">About</a>
+  <a data-m="courses"    onclick="go('courses');closeMob()">Courses</a>
+  <a data-m="facilities" onclick="go('facilities');closeMob()">Facilities</a>
+  <a data-m="partners"   onclick="go('partners');closeMob()">Partner Companies</a>
+  <a data-m="admission"  onclick="go('admission');closeMob()" class="mcta">Admission</a>
+</div>
+
+
+                                                                    <!-- ========== HOME ========== -->
+
+<div class="page active" id="page-home">
+  <div class="home-hero">
+    <div class="hhi">
+      <div>
+            <div class="home-live">Enrollment Open · A.Y. 2025–2026</div>
+            <h1 class="home-title">Shaping Minds,<br><em>Building Futures</em><br>Together.</h1>
+            <p class="home-desc">Tagum City College of Science and Technology Inc. is committed to holistic, values-driven education that empowers every learner to excel academically and serve society with integrity.</p>
+            <div class="home-btns">
+                <a class="btn-white" onclick="go('admission')">Apply Now →</a>
+                <a class="btn-ghost" onclick="go('about')">Learn More</a>
+            </div>
+            <div class="home-stats">
+                <div class="sti">
+                    <div class="stn">4,200+</div>
+                    <div class="stl">Students</div>
+                </div>
+                <div class="sti">
+                    <div class="stn">120+</div>
+                    <div class="stl">Faculty</div>
+                </div>
+                <div class="sti">
+                    <div class="stn">98%</div>
+                    <div class="stl">Board Pass Rate</div>
+                </div>
+                <div class="sti">
+                    <div class="stn">35+</div>
+                    <div class="stl">Partners</div>
+                </div>
+            </div>
+        </div>
+      <div>
+        <div style="font-size:.71rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.5);margin-bottom:.8rem">Our Guiding Principles</div>
+        <div class="vm-grid">
+          <div class="vm v1">
+            <div class="vm-ico">🔭</div>
+            <div class="vm-lbl">Vision</div>
+            <div class="vm-txt">"Leader in producing highly qualified professionals, multi-skilled, service-oriented with irrefutable ethical and moral standards for the global society."</div>
+        </div>
+          <div class="vm v2">
+            <div class="vm-ico">🎯</div>
+            <div class="vm-lbl">Mission</div>
+            <div class="vm-txt">"As a premier non-sectarian technology educational institution, Tagum City College of Science and Technology Foundation, Inc., is committed to provide a high quality educational environment, relevant academic program;
+              capability-building service, facilities and activities that promte strong moral values, Peace and Prosperity."
+            </div>
+        </div>
+         <div class="vm v3">
+          <div class="vm-ico">⚖️</div>
+          <div class="vm-lbl">Core Values</div>
+          <div class="vm-txt">"Excellence · Integrity · Service · Innovation · Community"</div>
+        </div>
+          <div class="vm v4">
+            <div class="vm-ico">🌟</div>
+            <div class="vm-lbl">Goals</div>
+            <div class="vm-txt">To achieve its mission, TCCSTFI aims to: <br>
+                  1. Provide basic technical and college education for the total development of individual student with skill in all levels; <br>
+                  2. Provide the students with skills, knowledge and values for honest and gainful work; <br>
+                  3. Cultivate a sense of sommitment among students to be catalyst in uplifting the socio-economic well being of the community where they live in; <br>
+                  4. Train research-oriented students on techniques and scientific ways of finding solutions to social problems. <br>
+                  5. Provide outreach programs that facilitate the transfer of technology and promote self-reliance among the less-privileged of the Philippine society; <br>
+                  6. Produce highly competent grauates with strong leadership and a high sense of moral and ethical standards for the industry needs; <br>
+                  7. Develop and strengthen the values of leadership, cooperation, collegiality and respect for human dignity in a culture of peace. <br></div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="home-updates">
+    <div class="hu-in">
+      <div class="bar"></div>
+      <h2 class="h1" style="font-size:1.65rem;margin-bottom:1.4rem">Latest Updates from the School</h2>
+      <div class="hu-grid">
+
+                                                               <!-- ----Latest News ------ -->
+            <div class="card">
+                <div class="ctitle">📰 Latest News</div>
+                <div class="carousel">
+                  <div class="carousel-inner">
+                     <div class="ni">
+                    <div class="nd">
+                        <div class="nd-d">14</div>
+                        <div class="nd-m">Apr</div>
+                    </div>
+                    <div>
+                        <span class="ntag">Academic</span>
+                        <div class="nhead">Brightfield Tops Regional Board Exam with 99.2% Passing Rate</div>
+                        <div class="nsnip">College of Nursing graduates achieved the highest regional passing rate for the 2025 licensure exams.</div>
+                    </div>
+                  </div>
+                 <div class="ni">
+                    <div class="nd">
+                        <div class="nd-d">10</div>
+                        <div class="nd-m">Apr</div>
+                    </div>
+                    <div>
+                        <span class="ntag">Partnership</span>
+                        <div class="nhead">New MOU Signed with Global Tech Solutions Inc.</div>
+                        <div class="nsnip">Opens 200+ internship slots for IT and Engineering students starting June 2025.</div>
+                    </div>
+                </div>
+                <div class="ni">
+                    <div class="nd">
+                        <div class="nd-d">05</div>
+                        <div class="nd-m">Apr</div>
+                    </div>
+                    <div>
+                        <span class="ntag">Facility</span>
+                        <div class="nhead">Innovation Hub Grand Opening Set for May 2025</div>
+                        <div class="nsnip">State-of-the-art labs and collaborative workspaces now open for students and faculty.</div>
+                    </div>
+                 </div>
+                 <div class="ni">
+                    <div class="nd">
+                        <div class="nd-d">01</div>
+                        <div class="nd-m">Apr</div>
+                    </div>
+                      <div>
+                        <span class="ntag">Award</span>
+                        <div class="nhead">Academy Receives CHED Level III Accreditation</div>
+                        <div class="nsnip">The highest recognition level granted to four degree programs this academic year.</div>
+                   </div>
+                  </div>
+                <div class="ni">
+                    <div class="nd">
+                        <div class="nd-d">14</div>
+                        <div class="nd-m">Apr</div>
+                    </div>
+                    <div>
+                        <span class="ntag">Academic</span>
+                        <div class="nhead">Brightfield Tops Regional Board Exam with 99.2% Passing Rate</div>
+                        <div class="nsnip">College of Nursing graduates achieved the highest regional passing rate for the 2025 licensure exams.</div>
+                    </div>
+                  </div>
+                 <div class="ni">
+                    <div class="nd">
+                        <div class="nd-d">10</div>
+                        <div class="nd-m">Apr</div>
+                    </div>
+                    <div>
+                        <span class="ntag">Partnership</span>
+                        <div class="nhead">New MOU Signed with Global Tech Solutions Inc.</div>
+                        <div class="nsnip">Opens 200+ internship slots for IT and Engineering students starting June 2025.</div>
+                    </div>
+                </div>
+                <div class="ni">
+                    <div class="nd">
+                        <div class="nd-d">05</div>
+                        <div class="nd-m">Apr</div>
+                    </div>
+                    <div>
+                        <span class="ntag">Facility</span>
+                        <div class="nhead">Innovation Hub Grand Opening Set for May 2025</div>
+                        <div class="nsnip">State-of-the-art labs and collaborative workspaces now open for students and faculty.</div>
+                    </div>
+                 </div>
+                 <div class="ni">
+                    <div class="nd">
+                        <div class="nd-d">01</div>
+                        <div class="nd-m">Apr</div>
+                    </div>
+                      <div>
+                        <span class="ntag">Award</span>
+                        <div class="nhead">Academy Receives CHED Level III Accreditation</div>
+                        <div class="nsnip">The highest recognition level granted to four degree programs this academic year.</div>
+                   </div>
+                  </div>
+                  </div>
+                  </div>
+              </div>
+
+                                                                <!-- -----upcoming Events----- -->
+
+            <div>
+            <div class="card" style="margin-bottom:1rem">
+                <div class="ctitle">📅 Upcoming Events</div>
+                <div class="carousel">
+                  <div class="carousel-inner">
+                    <div class="ei">
+                  <div class="edot" style="background:#5c7ded"></div>
+                  <div>
+                    <div class="etit">Enrollment Open House</div>
+                    <div class="emeta">April 25, 2025 · 8:00 AM–5:00 PM · Main Campus</div>
+                  </div>
+                </div>
+                <div class="ei">
+                  <div class="edot" style="background:#4caf83"></div>
+                  <div>
+                    <div class="etit">Annual Science & Technology Fair</div>
+                    <div class="emeta">May 8–10, 2025 · Labs & Covered Courts</div>
+                  </div>
+                </div>
+                <div class="ei">
+                  <div class="edot" style="background:var(--gold)"></div>
+                  <div>
+                    <div class="etit">Innovation Hub Grand Opening</div>
+                    <div class="emeta">May 15, 2025 · 9:00 AM · Building E</div>
+                  </div>
+                </div>
+                <div class="ei">
+                  <div class="edot" style="background:#d85a76"></div>
+                  <div>
+                    <div class="etit">Graduation Ceremony A.Y. 2024–25</div>
+                    <div class="emeta">June 5, 2025 · 8:00 AM · Sports Complex</div>
+                  </div>
+                  </div>
+                <div class="ei">
+                  <div class="edot" style="background:#9b59b6"></div>
+                  <div>
+                    <div class="etit">Freshmen Orientation Week</div>
+                    <div class="emeta">August 4–8, 2025 · All Buildings</div>
+                  </div>
+                </div>
+                <div class="ei">
+                  <div class="edot" style="background:#5c7ded"></div>
+                  <div>
+                    <div class="etit">Enrollment Open House</div>
+                    <div class="emeta">April 25, 2025 · 8:00 AM–5:00 PM · Main Campus</div>
+                  </div>
+                </div>
+                <div class="ei">
+                  <div class="edot" style="background:#4caf83"></div>
+                  <div>
+                    <div class="etit">Annual Science & Technology Fair</div>
+                    <div class="emeta">May 8–10, 2025 · Labs & Covered Courts</div>
+                  </div>
+                </div>
+                <div class="ei">
+                  <div class="edot" style="background:var(--gold)"></div>
+                  <div>
+                    <div class="etit">Innovation Hub Grand Opening</div>
+                    <div class="emeta">May 15, 2025 · 9:00 AM · Building E</div>
+                  </div>
+                </div>
+                <div class="ei">
+                  <div class="edot" style="background:#d85a76"></div>
+                  <div>
+                    <div class="etit">Graduation Ceremony A.Y. 2024–25</div>
+                    <div class="emeta">June 5, 2025 · 8:00 AM · Sports Complex</div>
+                  </div>
+                  </div>
+                <div class="ei">
+                  <div class="edot" style="background:#9b59b6"></div>
+                  <div>
+                    <div class="etit">Freshmen Orientation Week</div>
+                    <div class="emeta">August 4–8, 2025 · All Buildings</div>
+                  </div>
+                </div>
+                </div>
+                 </div>
+            </div>
+            <div class="ustrip">
+              <span style="font-size:1.1rem;flex-shrink:0;margin-top:2px">📢</span>
+              <div><strong>School Update — April 2025</strong>
+                <span>Classes resume May 5. Offices operate 7AM–5PM. Online enrollment live at <em>enroll.brightfieldacademy.edu.ph</em></span>
+              </div>
+            </div>
+            </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="fi">
+    <div class="fgrid">
+    <div>
+      <div class="fn">Tagum City College of Science and Technology</div>
+      <div class="ftag">Excellence in Education since 2005</div>
+      <p class="fdesc">Nurturing locally competitive, morally upright individuals through quality education, research, and community service.</p>
+    </div>
+    <div>
+      <div class="fct">Navigation</div>
+      <ul class="fl">
+        <li><a onclick="go('home')">Home</a></li>
+        <li><a onclick="go('about')">About Us</a></li>
+        <li><a onclick="go('courses')">Courses</a></li>
+        <li><a onclick="go('facilities')">Facilities</a></li>
+        <li><a onclick="go('partners')">Partners</a></li>
+        <li><a onclick="go('admission')">Admission</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="fct">Colleges</div>
+      <ul class="fl">
+        <li><a onclick="go('courses')">Information Technology</a></li>
+        <li><a onclick="go('courses')">Engineering</a></li>
+        <li><a onclick="go('courses')">Business & Management</a></li>
+        <li><a onclick="go('courses')">Health Sciences</a></li>
+        <li><a onclick="go('courses')">Education</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="fct">Contact</div>
+      <ul class="fl"><li>
+        <a href="tel:028555-1234">(02) 8555-1234</a></li>
+        <li><a href="ryanluayon@gmail.com">ryanluayon@gmail.com</a></li>
+        <li><a>Guzman Road</a></li>
+        <li><a>Mon–Fri, 7AM–5PM</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="fbot">
+    <div class="fcopy">© 2026 Tagum City College of Science and Technology Inc.. All rights reserved.</div>
+    <div class="fsoc">
+      <a href="#" class="sbtn">Fb</a>
+      <a href="#" class="sbtn">Tw</a>
+      <a href="#" class="sbtn">Ig</a>
+      <a href="#" class="sbtn">Yt</a>
+    </div>
+  </div>
+</div>
+</footer>
+</div>
+
+
+                                                  <!-- ========== ABOUT ========== -->
+<div class="page" id="page-about">
+  <div class="phero">
+    <div class="phero-in">
+      <div class="phero-tag">Our Story</div>
+      <div class="phero-title">About Tagum City College Of Science and Technology Inc.</div>
+      <p class="phero-sub">A legacy of academic excellence, community service, and character development since 2005.</p>
+      <div class="breadcrumb"><a onclick="go('home')">Home</a>
+        <span>›</span>
+        <span>About</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="ab-grid">
+      <div style="position:relative">
+        <div class="ab-frame">
+          <div class="ab-frame-in">
+            <img src="/images/tccstfi.png" alt="">
+            <p>Tagum City College of Science and Technology Inc.</p>
+          </div>
+          <div class="ab-badge"><strong>1989</strong><span>Year Founded</span></div>
+        </div>
+        <div class="ab-vals">
+          <div class="avc">
+            <div class="avc-t">🏆 Excellence</div>
+            <div class="avc-d">Committed to the highest academic and professional standards in all endeavors.</div>
+          </div>
+          <div class="avc">
+            <div class="avc-t">🤝 Integrity</div>
+            <div class="avc-d">Upholding honesty, transparency, and ethical conduct in every action.</div>
+          </div>
+          <div class="avc">
+            <div class="avc-t">🌱 Service</div>
+            <div class="avc-d">Dedicated to giving back through outreach and community extension work.</div>
+          </div>
+          <div class="avc"><div class="avc-t">💡 Innovation</div>
+          <div class="avc-d">Embracing new ideas, research, and technologies to advance education.</div>
+        </div>
+        </div>
+      </div>
+      <div>
+        <div class="tag">Our History</div>
+        <h2 class="h1">A Legacy of Learning &amp; Leadership</h2>
+        <div class="bar"></div>
+        <p style="color:var(--muted);margin-bottom:1.5rem;font-size:.95rem">Tagum City College of Science and Technology Inc. was born from a dream to bring quality education to the community — a vision that has grown into one of the region's most trusted academic institutions, shaping thousands of lives for over two decades.</p>
+        <div class="tl">
+          <div class="tli">
+            <div class="tll">
+              <div class="tld"></div>
+              <div class="tlln"></div>
+            </div>
+            <div>
+              <div class="tly">1989</div>
+              <div class="tlt">Founding</div>
+              <div class="tldesc">Established by Blah Blah Blah with a mission to make higher education accessible to all in the region.</div>
+            </div>
+          </div>
+          <div class="tli">
+            <div class="tll">
+              <div class="tld"></div>
+              <div class="tlln"></div>
+            </div>
+            <div>
+              <div class="tly">2005</div>
+              <div class="tlt">First CHED Accreditation</div>
+              <div class="tldesc">Palihug nalang ko unsay ibutang ninyo drea basta about.</div>
+            </div>
+          </div>
+          <div class="tli">
+            <div class="tll">
+              <div class="tld"></div>
+              <div class="tlln"></div>
+            </div>
+            <div>
+              <div class="tly">2005</div>
+              <div class="tlt">Campus Expansion</div>
+              <div class="tldesc">Basta when na expand and campus.</div>
+            </div>
+          </div>
+          <div class="tli">
+            <div class="tll">
+              <div class="tld"></div>
+              <div class="tlln"></div>
+            </div>
+            <div>
+              <div class="tly">2015</div>
+              <div class="tlt">Digital Transformation</div>
+              <div class="tldesc">Launched online learning platforms and formed 20+ corporate partnerships for OJT placements.</div>
+            </div>
+          </div>
+          <div class="tli">
+            <div class="tll">
+              <div class="tld"></div>
+            </div>
+            <div>
+              <div class="tly">2025</div>
+              <div class="tlt">Today</div>
+              <div class="tldesc">Over 4,200 students, 120+ faculty, 6 colleges, and 35+ industry partners — shaping the future every day gipamatak an ra naku ni wala ko kabalo unsay ibutang.</div>
+            </div>
+          </div>
+        </div>
+        <div style="margin-top:2rem"><a class="btn" onclick="go('courses')">Explore Our Courses →</a></div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="fi">
+    <div class="fgrid">
+    <div>
+      <div class="fn">Tagum City College of Science and Technology</div>
+      <div class="ftag">Excellence in Education since 2005</div>
+      <p class="fdesc">Nurturing locally competitive, morally upright individuals through quality education, research, and community service.</p>
+    </div>
+    <div>
+      <div class="fct">Navigation</div>
+      <ul class="fl">
+        <li><a onclick="go('home')">Home</a></li>
+        <li><a onclick="go('about')">About Us</a></li>
+        <li><a onclick="go('courses')">Courses</a></li>
+        <li><a onclick="go('facilities')">Facilities</a></li>
+        <li><a onclick="go('partners')">Partners</a></li>
+        <li><a onclick="go('admission')">Admission</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="fct">Colleges</div>
+      <ul class="fl">
+        <li><a onclick="go('courses')">Information Technology</a></li>
+        <li><a onclick="go('courses')">Engineering</a></li>
+        <li><a onclick="go('courses')">Business & Management</a></li>
+        <li><a onclick="go('courses')">Health Sciences</a></li>
+        <li><a onclick="go('courses')">Education</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="fct">Contact</div>
+      <ul class="fl"><li>
+        <a href="tel:028555-1234">(02) 8555-1234</a></li>
+        <li><a href="ryanluayon@gmail.com">ryanluayon@gmail.com</a></li>
+        <li><a>Guzman Road</a></li>
+        <li><a>Mon–Fri, 7AM–5PM</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="fbot">
+    <div class="fcopy">© 2026 Tagum City College of Science and Technology Inc.. All rights reserved.</div>
+    <div class="fsoc">
+      <a href="#" class="sbtn">Fb</a>
+      <a href="#" class="sbtn">Tw</a>
+      <a href="#" class="sbtn">Ig</a>
+      <a href="#" class="sbtn">Yt</a>
+    </div>
+  </div>
+</div>
+</footer>
+</div>
+
+
+                                                  <!-- ========== COURSES ========== -->
+<div class="page" id="page-courses">
+  <div class="phero"><div class="phero-in">
+    <div class="phero-tag">Academic Programs</div>
+    <div class="phero-title">Explore Our Courses</div>
+    <p class="phero-sub">Six colleges offering undergraduate and graduate programs designed to meet industry demands and develop career-ready graduates.</p>
+    <div class="breadcrumb">
+      <a onclick="go('home')">Home</a>
+      <span>›</span>
+      <span>Courses</span>
+    </div>
+  </div>
+</div>
+
+  <div class="wrap">
+    <div class="cg">
+      <div class="cc"><div class="cc-bar b1"></div><div class="cc-head"><div class="cc-ico i1">💻</div><div><div class="cc-name">College of Information Technology</div><div class="cc-lvl">Undergraduate · Graduate</div></div></div><p class="cc-desc">Develop technical expertise in software, networks, and digital systems for today's fast-evolving technology landscape.</p><div class="cc-slbl">Programs Offered</div><div class="cc-tags"><span class="cc-tag">BS Computer Science</span><span class="cc-tag">BS Information Technology</span><span class="cc-tag">BS Data Science</span><span class="cc-tag">MS Information Systems</span><span class="cc-tag">Certificate in Cybersecurity</span></div><div class="cc-foot"><span class="cc-dur">4 yrs (BS) · 2 yrs (MS)</span><span class="cc-u">136–142 Units</span></div></div>
+
+      <div class="cc"><div class="cc-bar b2"></div><div class="cc-head"><div class="cc-ico i2">⚙️</div><div><div class="cc-name">College of Engineering</div><div class="cc-lvl">Undergraduate · Graduate</div></div></div><p class="cc-desc">Build, innovate, and solve real-world problems through rigorous engineering education and hands-on training.</p><div class="cc-slbl">Programs Offered</div><div class="cc-tags"><span class="cc-tag">BS Civil Engineering</span><span class="cc-tag">BS Electrical Engineering</span><span class="cc-tag">BS Mechanical Engineering</span><span class="cc-tag">BS Electronics Engineering</span><span class="cc-tag">MS Engineering Management</span></div><div class="cc-foot"><span class="cc-dur">5 yrs (BS) · 2 yrs (MS)</span><span class="cc-u">170–180 Units</span></div></div>
+
+      <div class="cc"><div class="cc-bar b3"></div><div class="cc-head"><div class="cc-ico i3">🏢</div><div><div class="cc-name">College of Business &amp; Management</div><div class="cc-lvl">Undergraduate · Graduate</div></div></div><p class="cc-desc">Equip future leaders with business acumen, entrepreneurial thinking, and global management principles.</p><div class="cc-slbl">Programs Offered</div><div class="cc-tags"><span class="cc-tag">BS Accountancy</span><span class="cc-tag">BS Business Administration</span><span class="cc-tag">BS Entrepreneurship</span><span class="cc-tag">BS Financial Management</span><span class="cc-tag">MBA</span></div><div class="cc-foot"><span class="cc-dur">4 yrs (BS) · 2 yrs (MBA)</span><span class="cc-u">130–148 Units</span></div></div>
+
+      <div class="cc"><div class="cc-bar b4"></div><div class="cc-head"><div class="cc-ico i4">🩺</div><div><div class="cc-name">College of Health Sciences</div><div class="cc-lvl">Undergraduate · Post-grad</div></div></div><p class="cc-desc">Train compassionate health professionals in evidence-based practice, clinical skills, and patient-centered care.</p><div class="cc-slbl">Programs Offered</div><div class="cc-tags"><span class="cc-tag">BS Nursing</span><span class="cc-tag">BS Pharmacy</span><span class="cc-tag">BS Medical Technology</span><span class="cc-tag">BS Radiologic Technology</span><span class="cc-tag">BS Physical Therapy</span></div><div class="cc-foot"><span class="cc-dur">4 yrs (BS)</span><span class="cc-u">150–160 Units</span></div></div>
+
+      <div class="cc"><div class="cc-bar b5"></div><div class="cc-head"><div class="cc-ico i5">📚</div><div><div class="cc-name">College of Education</div><div class="cc-lvl">Undergraduate · Graduate</div></div></div><p class="cc-desc">Shape skilled educators committed to learner-centered and inclusive quality teaching across all levels.</p><div class="cc-slbl">Programs Offered</div><div class="cc-tags"><span class="cc-tag">BSED – English</span><span class="cc-tag">BSED – Mathematics</span><span class="cc-tag">BSED – Science</span><span class="cc-tag">BEED – Gen. Education</span><span class="cc-tag">Master of Arts in Teaching</span></div><div class="cc-foot"><span class="cc-dur">4 yrs (BS) · 2 yrs (MAT)</span><span class="cc-u">140–152 Units</span></div></div>
+
+      <div class="cc"><div class="cc-bar b6"></div><div class="cc-head"><div class="cc-ico i6">🔬</div><div><div class="cc-name">College of Arts &amp; Sciences</div><div class="cc-lvl">Undergraduate · Graduate</div></div></div><p class="cc-desc">Explore humanities, social sciences, and natural sciences to develop critical thinking and broad perspectives.</p><div class="cc-slbl">Programs Offered</div><div class="cc-tags"><span class="cc-tag">BS Psychology</span><span class="cc-tag">AB Communication</span><span class="cc-tag">BS Biology</span><span class="cc-tag">AB Political Science</span><span class="cc-tag">Master of Psychology</span></div><div class="cc-foot"><span class="cc-dur">4 yrs (BS/AB) · 2 yrs (MS)</span><span class="cc-u">128–145 Units</span></div></div>
+    </div>
+
+    <div style="text-align:center;margin-top:3rem;padding:2rem;background:var(--white);border:1px solid var(--border);border-radius:var(--rl);box-shadow:var(--sh)">
+      <p style="font-size:.95rem;color:var(--muted);margin-bottom:.8rem">Questions about a specific program? Our academic advisors are ready to help.</p>
+      <a class="btn" onclick="go('admission')">Contact an Academic Advisor →</a>
+    </div>
+  </div>
+
+ <footer>
+    <div class="fi">
+    <div class="fgrid">
+    <div>
+      <div class="fn">Tagum City College of Science and Technology</div>
+      <div class="ftag">Excellence in Education since 2005</div>
+      <p class="fdesc">Nurturing locally competitive, morally upright individuals through quality education, research, and community service.</p>
+    </div>
+    <div>
+      <div class="fct">Navigation</div>
+      <ul class="fl">
+        <li><a onclick="go('home')">Home</a></li>
+        <li><a onclick="go('about')">About Us</a></li>
+        <li><a onclick="go('courses')">Courses</a></li>
+        <li><a onclick="go('facilities')">Facilities</a></li>
+        <li><a onclick="go('partners')">Partners</a></li>
+        <li><a onclick="go('admission')">Admission</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="fct">Colleges</div>
+      <ul class="fl">
+        <li><a onclick="go('courses')">Information Technology</a></li>
+        <li><a onclick="go('courses')">Engineering</a></li>
+        <li><a onclick="go('courses')">Business & Management</a></li>
+        <li><a onclick="go('courses')">Health Sciences</a></li>
+        <li><a onclick="go('courses')">Education</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="fct">Contact</div>
+      <ul class="fl"><li>
+        <a href="tel:028555-1234">(02) 8555-1234</a></li>
+        <li><a href="ryanluayon@gmail.com">ryanluayon@gmail.com</a></li>
+        <li><a>Guzman Road</a></li>
+        <li><a>Mon–Fri, 7AM–5PM</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="fbot">
+    <div class="fcopy">© 2026 Tagum City College of Science and Technology Inc.. All rights reserved.</div>
+    <div class="fsoc">
+      <a href="#" class="sbtn">Fb</a>
+      <a href="#" class="sbtn">Tw</a>
+      <a href="#" class="sbtn">Ig</a>
+      <a href="#" class="sbtn">Yt</a>
+    </div>
+  </div>
+</div>
+</footer>
+</div>
+
+
+                                                <!-- ========== FACILITIES ========== -->
+<div class="page" id="page-facilities">
+  <div class="phero"><div class="phero-in">
+    <div class="phero-tag">Campus Life</div>
+    <div class="phero-title">World-Class Facilities</div>
+    <p class="phero-sub">A modern 12-hectare campus with dedicated buildings, cutting-edge labs, and extensive recreational infrastructure.</p>
+    <div class="breadcrumb">
+      <a onclick="go('home')">Home</a>
+      <span>›</span>
+      <span>Facilities</span>
+    </div>
+  </div>
+</div>
+
+  <div class="wrap">
+    <div class="fac-banner">
+      <div><div class="fb-t">A Campus Built for Excellence</div><p class="fb-s">Our award-winning campus spans 12 hectares with buildings for each college, recreation areas, and cutting-edge research infrastructure designed to elevate the student experience.</p></div>
+      <div class="fb-stats"><div class="fbs"><div class="fbs-n">12</div><div class="fbs-l">Hectares</div></div><div class="fbs"><div class="fbs-n">18</div><div class="fbs-l">Buildings</div></div><div class="fbs"><div class="fbs-n">60+</div><div class="fbs-l">Laboratories</div></div><div class="fbs"><div class="fbs-n">3</div><div class="fbs-l">Libraries</div></div></div>
+    </div>
+    <div class="fg">
+      <div class="fc">
+        <div class="fc-img f1">🏛️</div>
+        <div class="fc-b">
+          <div class="fc-t">Administration Building</div>
+          <div class="fc-d">Houses the President's Office, Registrar, Finance, and all administrative departments.</div>
+          <div class="fc-badge">Main Campus</div>
+        </div>
+      </div>
+      <div class="fc">
+        <div class="fc-img f2">🔬</div>
+        <div class="fc-b">
+          <div class="fc-t">Science & Research Complex</div>
+          <div class="fc-d">24 specialized laboratories with advanced instruments for academic programs and research.</div>
+          <div class="fc-badge">Building B</div>
+        </div>
+      </div>
+      <div class="fc">
+        <div class="fc-img f3">💡</div>
+        <div class="fc-b">
+          <div class="fc-t">Innovation Hub</div>
+          <div class="fc-d">Co-working spaces, maker labs, a startup incubator, and digital studios for entrepreneurs.</div>
+          <div class="fc-badge">Building E · New</div>
+        </div>
+      </div>
+      <div class="fc">
+        <div class="fc-img f4">🏥</div>
+        <div class="fc-b">
+          <div class="fc-t">Health Sciences Building</div>
+          <div class="fc-d">Clinical simulation labs, anatomy rooms, and a student health clinic for medical programs.</div>
+          <div class="fc-badge">Building C</div>
+        </div>
+      </div>
+      <div class="fc">
+        <div class="fc-img f5">📖</div>
+        <div class="fc-b">
+          <div class="fc-t">Central Library</div>
+          <div class="fc-d">80,000+ volumes, digital resources, silent study areas, and collaborative reading lounges.</div>
+          <div class="fc-badge">Learning Center</div>
+        </div>
+      </div>
+      <div class="fc">
+        <div class="fc-img f6">🏊</div>
+        <div class="fc-b"><div class="fc-t">Sports & Wellness Complex</div>
+        <div class="fc-d">Olympic pool, gymnasium, outdoor courts, fitness center, and a 400m running track.</div>
+        <div class="fc-badge">Recreation Area</div>
+      </div>
+    </div>
+      <div class="fc">
+        <div class="fc-img f7">🍽️</div>
+        <div class="fc-b">
+          <div class="fc-t">Student Center & Cafeteria</div>
+          <div class="fc-d">Multi-level food court, student org offices, counseling center, and student lounges.</div>
+          <div class="fc-badge">Building D</div>
+        </div>
+      </div>
+      <div class="fc">
+        <div class="fc-img f8">🎭</div>
+        <div class="fc-b">
+          <div class="fc-t">Performing Arts Theater</div>
+          <div class="fc-d">1,200-seat auditorium with professional stage lighting, sound systems, and rehearsal rooms.</div>
+          <div class="fc-badge">Cultural Center</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<footer>
+    <div class="fi">
+    <div class="fgrid">
+    <div>
+      <div class="fn">Tagum City College of Science and Technology</div>
+      <div class="ftag">Excellence in Education since 2005</div>
+      <p class="fdesc">Nurturing locally competitive, morally upright individuals through quality education, research, and community service.</p>
+    </div>
+    <div>
+      <div class="fct">Navigation</div>
+      <ul class="fl">
+        <li><a onclick="go('home')">Home</a></li>
+        <li><a onclick="go('about')">About Us</a></li>
+        <li><a onclick="go('courses')">Courses</a></li>
+        <li><a onclick="go('facilities')">Facilities</a></li>
+        <li><a onclick="go('partners')">Partners</a></li>
+        <li><a onclick="go('admission')">Admission</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="fct">Colleges</div>
+      <ul class="fl">
+        <li><a onclick="go('courses')">Information Technology</a></li>
+        <li><a onclick="go('courses')">Engineering</a></li>
+        <li><a onclick="go('courses')">Business & Management</a></li>
+        <li><a onclick="go('courses')">Health Sciences</a></li>
+        <li><a onclick="go('courses')">Education</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="fct">Contact</div>
+      <ul class="fl"><li>
+        <a href="tel:028555-1234">(02) 8555-1234</a></li>
+        <li><a href="ryanluayon@gmail.com">ryanluayon@gmail.com</a></li>
+        <li><a>Guzman Road</a></li>
+        <li><a>Mon–Fri, 7AM–5PM</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="fbot">
+    <div class="fcopy">© 2026 Tagum City College of Science and Technology Inc.. All rights reserved.</div>
+    <div class="fsoc">
+      <a href="#" class="sbtn">Fb</a>
+      <a href="#" class="sbtn">Tw</a>
+      <a href="#" class="sbtn">Ig</a>
+      <a href="#" class="sbtn">Yt</a>
+    </div>
+  </div>
+</div>
+</footer>
+</div>
+
+
+                                                <!-- ========== PARTNERS ========== -->
+<div class="page" id="page-partners">
+  <div class="phero"><div class="phero-in">
+    <div class="phero-tag">Industry Connections</div>
+    <div class="phero-title">Our Partner Companies</div>
+    <p class="phero-sub">Leading corporations partnering with us to provide real-world exposure, internships, and career opportunities for our graduates.</p>
+    <div class="breadcrumb"><a onclick="go('home')">Home</a><span>›</span><span>Partner Companies</span></div>
+  </div></div>
+
+  <div class="wrap">
+    <div class="pg">
+      <div class="pc">
+        <div class="plogo p1">AFP</div>
+        <div>
+          <div class="pn">Global Tech Solutions Inc.</div>
+          <div class="pi">Information Technology</div>
+        </div>
+        <p class="pd">A multinational IT company providing software development, cloud solutions, and digital transformation services across Southeast Asia.</p>
+        <div class="ps">Partner since 2018 · 80+ Internship Slots</div>
+      </div>
+      <div class="pc">
+        <div class="plogo p2">BFP</div>
+        <div>
+          <div class="pn">MedPrime Healthcare Group</div>
+          <div class="pi">Healthcare & Medicine</div>
+        </div>
+        <p class="pd">A leading hospital network with 12 facilities nationwide, offering clinical immersion programs for health science students.</p>
+        <div class="ps">Partner since 2007 · Clinical Training Partner</div>
+      </div>
+      <div class="pc">
+        <div class="plogo p3">PDEA</div>
+        <div>
+          <div class="pn">Brightcore Finance Corp.</div>
+          <div class="pi">Banking & Finance</div>
+        </div>
+        <p class="pd">A top-tier financial institution with dedicated internship slots for Accountancy and Financial Management students.</p>
+        <div class="ps">Partner since 2012 · 40+ Internship Slots</div>
+      </div>
+      <div class="pc">
+        <div class="plogo p4">SWAT</div>
+        <div>
+          <div class="pn">Apex Infrastructure &amp; Engineering</div>
+          <div class="pi">Construction & Engineering</div>
+        </div>
+        <p class="pd">One of the country's premier construction firms, offering site immersion programs for engineering students on national projects.</p>
+        <div class="ps">Partner since 2010 · Site Immersion Partner</div>
+      </div>
+      <div class="pc">
+        <div class="plogo p5">LTO</div>
+        <div>
+          <div class="pn">LearningEdge Corporation</div>
+          <div class="pi">EdTech & Publishing</div>
+        </div>
+        <p class="pd">An educational technology company supporting curriculum development, digital tools, and teacher training at TCCSTFI.</p>
+        <div class="ps">Partner since 2016 · Curriculum Partner</div>
+      </div>
+      <div class="pc">
+        <div class="plogo p6">PAGCOR</div>
+        <div>
+          <div class="pn">EcoGreen Farms &amp; Solutions</div>
+          <div class="pi">Agriculture & Environment</div>
+        </div>
+        <p class="pd">A sustainable agribusiness collaborating with Biology and Environmental Science programs for research and community extension projects.</p>
+        <div class="ps">Partner since 2020 · Research Partner</div></div>
+    </div>
+    <div class="pcta">
+      <p>Interested in becoming a <strong>Tagum City College of Science and Technology Inc. partner company?</strong> Join our growing network of industry collaborators and help shape the next generation.</p>
+      <a class="btn" onclick="go('admission')">Contact Our Partnership Office →</a>
+    </div>
+  </div>
+
+ <footer>
+    <div class="fi">
+    <div class="fgrid">
+    <div>
+      <div class="fn">Tagum City College of Science and Technology</div>
+      <div class="ftag">Excellence in Education since 2005</div>
+      <p class="fdesc">Nurturing locally competitive, morally upright individuals through quality education, research, and community service.</p>
+    </div>
+    <div>
+      <div class="fct">Navigation</div>
+      <ul class="fl">
+        <li><a onclick="go('home')">Home</a></li>
+        <li><a onclick="go('about')">About Us</a></li>
+        <li><a onclick="go('courses')">Courses</a></li>
+        <li><a onclick="go('facilities')">Facilities</a></li>
+        <li><a onclick="go('partners')">Partners</a></li>
+        <li><a onclick="go('admission')">Admission</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="fct">Colleges</div>
+      <ul class="fl">
+        <li><a onclick="go('courses')">Information Technology</a></li>
+        <li><a onclick="go('courses')">Engineering</a></li>
+        <li><a onclick="go('courses')">Business & Management</a></li>
+        <li><a onclick="go('courses')">Health Sciences</a></li>
+        <li><a onclick="go('courses')">Education</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="fct">Contact</div>
+      <ul class="fl"><li>
+        <a href="tel:028555-1234">(02) 8555-1234</a></li>
+        <li><a href="ryanluayon@gmail.com">ryanluayon@gmail.com</a></li>
+        <li><a>Guzman Road</a></li>
+        <li><a>Mon–Fri, 7AM–5PM</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="fbot">
+    <div class="fcopy">© 2026 Tagum City College of Science and Technology Inc.. All rights reserved.</div>
+    <div class="fsoc">
+      <a href="#" class="sbtn">Fb</a>
+      <a href="#" class="sbtn">Tw</a>
+      <a href="#" class="sbtn">Ig</a>
+      <a href="#" class="sbtn">Yt</a>
+    </div>
+  </div>
+</div>
+</footer>
+</div>
+
+
+                                                <!-- ========== ADMISSION ========== -->
+<div class="page" id="page-admission">
+  <div class="phero">
+    <div class="phero-in">
+    <div class="phero-tag">Join Our Community</div>
+    <div class="phero-title">Admission &amp; Enrollment</div>
+    <p class="phero-sub">Your journey to excellence starts here. Apply online or visit us — we'd love to welcome you to TCCSTFI.</p>
+    <div class="breadcrumb">
+      <a onclick="go('home')">Home</a>
+      <span>›</span>
+      <span>Admission</span>
+    </div>
+  </div>
+</div>
+
+  <div class="wrap">
+    <div class="adm-top">
+      <div>
+        <h3 class="adm-t">Your Journey Starts Here</h3>
+        <p class="adm-d">We welcome aspiring students from all backgrounds. Our admission process is straightforward, transparent, and student-friendly. Start your application today!</p>
+        <div class="adm-rl">Requirements</div>
+        <ul class="adm-list">
+          <li>Original &amp; photocopy of Form 138 (Grade 12 Report Card)</li>
+          <li>PSA-issued Birth Certificate (2 copies)</li>
+          <li>Certificate of Good Moral Character</li>
+          <li>2×2 ID Photos — 4 copies, white background</li>
+          <li>Medical Certificate from a licensed physician</li>
+          <li>Passed the Brightfield Admission Test (BAT)</li>
+          <li>Senior High School Diploma or equivalent</li>
+        </ul>
+        <!-- ---------<div style="margin-top:1.4rem"><a href="https://www.ryanluayon.com/admission" target="_blank" class="btn">Apply Online at ryanluayon.com →</a></div> -->
+      </div>
+      <div>
+        <div style="font-weight:700;font-size:.88rem;color:var(--navy);margin-bottom:.8rem">Application Steps</div>
+        <div class="adm-steps">
+          <div class="adm-step"><div class="adm-sn">01</div><div><div class="adm-st">Create an Account</div><div class="adm-sd">Register at our enrollment portal and fill out the online application form completely.</div></div></div>
+          <div class="adm-step"><div class="adm-sn">02</div><div><div class="adm-st">Take the Admission Test</div><div class="adm-sd">Schedule and complete the Brightfield Admission Test (BAT) — online or on-campus.</div></div></div>
+          <div class="adm-step"><div class="adm-sn">03</div><div><div class="adm-st">Submit Documents</div><div class="adm-sd">Upload or personally submit all required documents to the Registrar's Office.</div></div></div>
+          <div class="adm-step"><div class="adm-sn">04</div><div><div class="adm-st">Receive Acceptance &amp; Enroll</div><div class="adm-sd">Upon approval, pay the enrollment fee and complete your official enrollment.</div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="adm-mid">
+      <div class="adm-cc">
+        <div class="adm-ct">📞 Admission Office Contact</div>
+        <!-- -----<div class="crow"><div class="cico">🌐</div><div><div class="clbl">Official Website</div><div class="cval"><a href="https://www.tccstfi.edu.ph" target="_blank">www.tccstfi.edu.ph</a></div></div></div> -->
+        <div class="crow">
+          <div class="cico">📧</div>
+          <div>
+            <div class="clbl">Email</div>
+            <div class="cval">
+              <a href="ryanluayon1357908642@gmail.com">admissions@tccstfi.edu.ph</a>
+            </div>
+          </div>
+        </div>
+        <div class="crow">
+          <div class="cico">📞</div>
+          <div>
+            <div class="clbl">Phone</div>
+            <div class="cval">4758354657475</div>
+          </div>
+        </div>
+        <div class="crow">
+          <div class="cico">📱</div>
+          <div>
+            <div class="clbl">Mobile / Viber</div>
+            <div class="cval">+63 991-129-4462</div>
+          </div>
+        </div>
+        <div class="crow">
+          <div class="cico">📍</div>
+          <div>
+            <div class="clbl">Address</div>
+            <div class="cval">Elpidio M. Gazmen Compound, Gazmen Road, Tagum City, Philippines, 8100</div>
+          </div>
+        </div>
+        <div class="crow">
+          <div class="cico">⏰</div>
+          <div>
+            <div class="clbl">Office Hours</div>
+            <div class="cval">Monday – Friday, 7:00 AM – 5:00 PM</div>
+          </div>
+        </div>
+        <div class="crow">
+          <div class="cico">💬</div>
+          <div>
+            <div class="clbl">Facebook Page</div>
+            <div class="cval">
+              <a href="https://www.facebook.com/tccsttagum" target="_blank">fb.com/TCCSTFI</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="adm-mc">
+        <div class="mhead">
+          <span style="font-size:1rem">📍</span>
+          <div><strong>Campus Location — Live Map</strong><br>
+            <span>Elpidio M. Gazmen Compound, Gazmen Road, Tagum City</span>
+          </div>
+        </div>
+        <iframe class="mframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.0128942448127!2d125.79958618485176!3d7.463824173332497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f953385be5a1bb%3A0xa455a9bc7ecdf4b4!2sTagum%20City%20College%20of%20Science%20and%20Technology%20Foundation%20Incorporated!5e0!3m2!1sen!2sph!4v1776565815642!5m2!1sen!2sph" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Campus Map"></iframe>
+      </div>
+    </div>
+
+    <div class="adm-dates">
+      <div class="adm-dt">📆 Important Admission Dates — A.Y. 2025–2026</div>
+      <div class="dg">
+        <div class="di">
+          <div class="dl">Application Opens</div>
+          <div class="dv">March 1, 2025</div>
+          <div class="dn">Online & Walk-in</div>
+        </div>
+        <div class="di">
+          <div class="dl">Admission Test</div>
+          <div class="dv">Apr 5–May 30</div>
+          <div class="dn">By appointment</div>
+        </div>
+        <div class="di">
+          <div class="dl">App. Deadline</div>
+          <div class="dv">June 15, 2025</div>
+          <div class="dn">No extensions</div>
+        </div>
+        <div class="di">
+          <div class="dl">Results Release</div>
+          <div class="dv">June 25, 2025</div>
+          <div class="dn">Via email & portal</div>
+        </div>
+        <div class="di">
+          <div class="dl">Enrollment Period</div>
+          <div class="dv">July 1–25, 2025</div>
+          <div class="dn">First come basis</div>
+        </div>
+        <div class="di">
+          <div class="dl">Classes Begin</div>
+          <div class="dv">Aug 11, 2025</div>
+          <div class="dn">1st Semester</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="fi">
+    <div class="fgrid">
+    <div>
+      <div class="fn">Tagum City College of Science and Technology</div>
+      <div class="ftag">Excellence in Education since 2005</div>
+      <p class="fdesc">Nurturing locally competitive, morally upright individuals through quality education, research, and community service.</p>
+    </div>
+    <div>
+      <div class="fct">Navigation</div>
+      <ul class="fl">
+        <li><a onclick="go('home')">Home</a></li>
+        <li><a onclick="go('about')">About Us</a></li>
+        <li><a onclick="go('courses')">Courses</a></li>
+        <li><a onclick="go('facilities')">Facilities</a></li>
+        <li><a onclick="go('partners')">Partners</a></li>
+        <li><a onclick="go('admission')">Admission</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="fct">Colleges</div>
+      <ul class="fl">
+        <li><a onclick="go('courses')">Information Technology</a></li>
+        <li><a onclick="go('courses')">Engineering</a></li>
+        <li><a onclick="go('courses')">Business & Management</a></li>
+        <li><a onclick="go('courses')">Health Sciences</a></li>
+        <li><a onclick="go('courses')">Education</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="fct">Contact</div>
+      <ul class="fl"><li>
+        <a href="tel:028555-1234">(02) 8555-1234</a></li>
+        <li><a href="ryanluayon@gmail.com">ryanluayon@gmail.com</a></li>
+        <li><a>Guzman Road</a></li>
+        <li><a>Mon–Fri, 7AM–5PM</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="fbot">
+    <div class="fcopy">© 2026 Tagum City College of Science and Technology Inc.. All rights reserved.</div>
+    <div class="fsoc">
+      <a href="#" class="sbtn">Fb</a>
+      <a href="#" class="sbtn">Tw</a>
+      <a href="#" class="sbtn">Ig</a>
+      <a href="#" class="sbtn">Yt</a>
+    </div>
+  </div>
+</div>
+</footer>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
