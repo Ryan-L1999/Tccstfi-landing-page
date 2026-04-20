@@ -14,7 +14,7 @@
 <nav>
   <div class="logo" onclick="go('home')">
     <div class="logo-box">
-       <img src="logo.png" alt="tccstfi_logo" class="tccstfi_logo">
+       <img src="/images/logo.png" alt="tccstfi_logo" class="tccstfi_logo">
     </div>
     <div class="logo-text">Tccstfi College<small>Excellence in Education</small></div>
   </div>
@@ -377,7 +377,7 @@
             <img src="/images/tccstfi.png" alt="">
             <p>Tagum City College of Science and Technology Inc.</p>
           </div>
-          <div class="ab-badge"><strong>1989</strong><span>Year Founded</span></div>
+          <div class="ab-badge"><strong>0001</strong><span>Year Founded</span></div>
         </div>
         <div class="ab-vals">
           <div class="avc">
@@ -624,16 +624,29 @@
       <div class="fb-stats"><div class="fbs"><div class="fbs-n">12</div><div class="fbs-l">Hectares</div></div><div class="fbs"><div class="fbs-n">18</div><div class="fbs-l">Buildings</div></div><div class="fbs"><div class="fbs-n">60+</div><div class="fbs-l">Laboratories</div></div><div class="fbs"><div class="fbs-n">3</div><div class="fbs-l">Libraries</div></div></div>
     </div>
     <div class="fg">
-      <div class="fc">
-        <div class="fc-img f1">🏛️</div>
+      <div class="fc" onclick="openModal()">
+        <div class="fc-img f1">
+          <img src="images/tccstfi.png" alt="">
+        </div>
         <div class="fc-b">
           <div class="fc-t">Administration Building</div>
           <div class="fc-d">Houses the President's Office, Registrar, Finance, and all administrative departments.</div>
           <div class="fc-badge">Main Campus</div>
         </div>
       </div>
+         <div id="fcModal" class="modal">
+          <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()"></span>
+            <img src="/images/tccstfi.png" class="modal-img">
+            <h2>Administration Building</h2>
+             <p>Detailed information about the Administration Building goes here. It houses the President's Office, Registrar, and Finance.</p>
+          </div>
+        </div>
+
       <div class="fc">
-        <div class="fc-img f2">🔬</div>
+        <div class="fc-img f2">
+          <img src="images/tccstfi.png" alt="">
+        </div>
         <div class="fc-b">
           <div class="fc-t">Science & Research Complex</div>
           <div class="fc-d">24 specialized laboratories with advanced instruments for academic programs and research.</div>
@@ -641,7 +654,9 @@
         </div>
       </div>
       <div class="fc">
-        <div class="fc-img f3">💡</div>
+        <div class="fc-img f3">
+          <img src="images/tccstfi.png" alt="">
+        </div>
         <div class="fc-b">
           <div class="fc-t">Innovation Hub</div>
           <div class="fc-d">Co-working spaces, maker labs, a startup incubator, and digital studios for entrepreneurs.</div>
@@ -649,7 +664,9 @@
         </div>
       </div>
       <div class="fc">
-        <div class="fc-img f4">🏥</div>
+        <div class="fc-img f4">
+          <img src="images/tccstfi.png" alt="">
+        </div>
         <div class="fc-b">
           <div class="fc-t">Health Sciences Building</div>
           <div class="fc-d">Clinical simulation labs, anatomy rooms, and a student health clinic for medical programs.</div>
@@ -657,7 +674,9 @@
         </div>
       </div>
       <div class="fc">
-        <div class="fc-img f5">📖</div>
+        <div class="fc-img f5">
+          <img src="images/tccstfi.png" alt="">
+        </div>
         <div class="fc-b">
           <div class="fc-t">Central Library</div>
           <div class="fc-d">80,000+ volumes, digital resources, silent study areas, and collaborative reading lounges.</div>

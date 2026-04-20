@@ -8,3 +8,18 @@ function go(id){
 function toggleMob(){document.getElementById('mn').classList.toggle('open')}
 function closeMob(){document.getElementById('mn').classList.remove('open')}
 go('home');
+
+function openModal() {
+    document.getElementById('fcModal').style.display = 'flex';
+}
+
+function closeModal() {
+    document.getElementById('fcModal').style.display = 'none';
+}
+
+window.onclick = function(event) {
+    let modal = document.getElementById('fcModal');
+    if (event.target == modal) {
+        modal.style.display = 'none';
+    }
+}
