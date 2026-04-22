@@ -25,7 +25,8 @@ body{
     overflow-x:hidden;
 }
 
-/* NAV */
+                                                                    /* NAV */
+
 nav{
   position:fixed;
   top:0;
@@ -149,6 +150,7 @@ nav{
     margin-top:.3rem;
 }
 
+
                                                                 /* PAGE SYSTEM */
 .page{
     display:none;
@@ -168,7 +170,19 @@ nav{
         transform:translateY(0)
     }
 }
-
+.portfolio-btn {
+    background-color: #800000;
+    color: white !important;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;   
+    display: inline-block;
+}
+.portfolio-btn:hover {
+    background-color: #5a0000;
+    transform: translateY(-2px);
+}
                                                                 /* SHARED */
 
 .wrap{
@@ -802,6 +816,8 @@ nav{
     overflow:hidden;
     box-shadow:var(--sh);
     transition:transform .25s,box-shadow .25s;
+    display:flex;
+    flex-direction:column;
 }
 .cc:hover{
     transform:translateY(-5px);
@@ -922,6 +938,23 @@ nav{
     font-size:.77rem;
     font-weight:700;
     color:var(--navy);
+}
+.cc-btn{
+    display:block;
+    width:100%;
+    margin-top:auto;
+    padding:.75rem 1.4rem;
+    background:var(--navy);
+    color:white;
+    border:none;
+    border-radius:0 0 var(--r) var(--r);
+    font-size:.85rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:background .2s;
+}
+.cc-btn:hover{
+    background:var(--navy2);
 }
 
                                                             /* ===== FACILITIES ===== */
@@ -1599,3 +1632,15 @@ footer{
         grid-template-columns:1fr 1fr;
     }
 }
+
+@keyframes entranceEffect{
+    0%{
+        opacity: 0;
+        transform:translateX(-50px) scale(0.8);
+    }
+    100%{
+        opacity: 1;
+        transform:translateX(100px) scale(1)
+    }
+}
+
