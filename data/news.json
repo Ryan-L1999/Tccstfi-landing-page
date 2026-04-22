@@ -1,0 +1,62 @@
+{
+  "latest": [
+    {
+      "day": "14",
+      "month": "Apr",
+      "tag": "Academic",
+      "title": "Brightfield Tops Regional Board Exam with 99.2% Passing Rate",
+      "snip": "College of Nursing graduates achieved the highest regional passing rate for the 2025 licensure exams."
+    },
+    {
+      "day": "10",
+      "month": "Apr",
+      "tag": "Partnership",
+      "title": "New MOU Signed with Global Tech Solutions Inc.",
+      "snip": "Opens 200+ internship slots for IT and Engineering students starting June 2025."
+    },
+    {
+      "day": "05",
+      "month": "Apr",
+      "tag": "Facility",
+      "title": "Innovation Hub Grand Opening Set for May 2025",
+      "snip": "State-of-the-art labs and collaborative workspaces now open for students and faculty."
+    },
+    {
+      "day": "01",
+      "month": "Apr",
+      "tag": "Award",
+      "title": "Academy Receives CHED Level III Accreditation",
+      "snip": "The highest recognition level granted to four degree programs this academic year."
+    }
+  ],
+  "upcoming": [
+    {
+      "day": "25",
+      "month": "Apr",
+      "tag": "Enrollment",
+      "title": "Enrollment Open House Extended to May",
+      "snip": "Extended enrollment period to accommodate all interested students for A.Y. 2025-2026."
+    },
+    {
+      "day": "28",
+      "month": "Apr",
+      "tag": "Event",
+      "title": "Faculty Workshop on Modern Pedagogical Approaches",
+      "snip": "Professional development program for all faculty members scheduled next month."
+    },
+    {
+      "day": "08",
+      "month": "May",
+      "tag": "Technology",
+      "title": "New Learning Management System Launch",
+      "snip": "Advanced digital platform to enhance online and blended learning experiences for all students."
+    },
+    {
+      "day": "15",
+      "month": "May",
+      "tag": "Facility",
+      "title": "Science Laboratory Renovation Completion",
+      "snip": "Upgraded facilities with cutting-edge equipment for enhanced practical learning."
+    }
+  ]
+}

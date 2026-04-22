@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "icon": "💻",
+    "bar": "b1",
+    "name": "College of Information Technology",
+    "level": "Undergraduate · Graduate",
+    "cardDesc": "Develop technical expertise in software, networks, and digital systems for today's fast-evolving technology landscape.",
+    "programs": ["BS Computer Science", "BS Information Technology", "BS Data Science", "MS Information Systems", "Certificate in Cybersecurity"],
+    "duration": "4 yrs (BS) · 2 yrs (MS)",
+    "units": "136–142 Units",
+    "img": "/images/tccstfi.png",
+    "modalDesc": "The College of Information Technology prepares students for successful careers in the dynamic tech industry. Our programs combine theoretical foundations with practical hands-on experience using cutting-edge tools and technologies. Graduates work with leading IT companies as software developers, systems architects, data scientists, and cybersecurity professionals."
+  },
+  {
+    "id": 2,
+    "icon": "⚙️",
+    "bar": "b2",
+    "name": "College of Engineering",
+    "level": "Undergraduate · Graduate",
+    "cardDesc": "Build, innovate, and solve real-world problems through rigorous engineering education and hands-on training.",
+    "programs": ["BS Civil Engineering", "BS Electrical Engineering", "BS Mechanical Engineering", "BS Electronics Engineering", "MS Engineering Management"],
+    "duration": "5 yrs (BS) · 2 yrs (MS)",
+    "units": "170–180 Units",
+    "img": "/images/tccstfi.png",
+    "modalDesc": "Our Engineering programs are accredited and recognized nationally. Students gain expertise in design, analysis, and implementation of engineering solutions for infrastructure, energy, manufacturing, and innovation projects. State-of-the-art laboratories and partnerships with major engineering firms provide real-world project experience."
+  },
+  {
+    "id": 3,
+    "icon": "🏢",
+    "bar": "b3",
+    "name": "College of Business & Management",
+    "level": "Undergraduate · Graduate",
+    "cardDesc": "Equip future leaders with business acumen, entrepreneurial thinking, and global management principles.",
+    "programs": ["BS Accountancy", "BS Business Administration", "BS Entrepreneurship", "BS Financial Management", "MBA"],
+    "duration": "4 yrs (BS) · 2 yrs (MBA)",
+    "units": "130–148 Units",
+    "img": "/images/tccstfi.png",
+    "modalDesc": "Prepare for leadership roles in corporate, entrepreneurial, and public sectors. Our business programs emphasize case studies, business simulations, and internships with top companies. Graduates become managers, entrepreneurs, accountants, and business consultants worldwide."
+  },
+  {
+    "id": 4,
+    "icon": "🩺",
+    "bar": "b4",
+    "name": "College of Health Sciences",
+    "level": "Undergraduate · Post-grad",
+    "cardDesc": "Train compassionate health professionals in evidence-based practice, clinical skills, and patient-centered care.",
+    "programs": ["BS Nursing", "BS Pharmacy", "BS Medical Technology", "BS Radiologic Technology", "BS Physical Therapy"],
+    "duration": "4 yrs (BS)",
+    "units": "150–160 Units",
+    "img": "/images/tccstfi.png",
+    "modalDesc": "Our health sciences programs produce skilled professionals committed to patient care and public health. With simulation labs, clinical training partnerships with hospitals, and research opportunities, graduates become nurses, pharmacists, medical technologists, and physical therapists serving communities."
+  },
+  {
+    "id": 5,
+    "icon": "📚",
+    "bar": "b5",
+    "name": "College of Education",
+    "level": "Undergraduate · Graduate",
+    "cardDesc": "Shape skilled educators committed to learner-centered and inclusive quality teaching across all levels.",
+    "programs": ["BSED – English", "BSED – Mathematics", "BSED – Science", "BEED – Gen. Education", "Master of Arts in Teaching"],
+    "duration": "4 yrs (BS) · 2 yrs (MAT)",
+    "units": "140–152 Units",
+    "img": "/images/tccstfi.png",
+    "modalDesc": "Develop as a transformative educator with expertise in curriculum design, student assessment, and inclusive teaching methods. Our programs are recognized by DepEd and international education bodies. Graduates teach in public and private schools, and pursue advanced education careers."
+  },
+  {
+    "id": 6,
+    "icon": "🔬",
+    "bar": "b6",
+    "name": "College of Arts & Sciences",
+    "level": "Undergraduate · Graduate",
+    "cardDesc": "Explore humanities, social sciences, and natural sciences to develop critical thinking and broad perspectives.",
+    "programs": ["BS Psychology", "AB Communication", "BS Biology", "AB Political Science", "Master of Psychology"],
+    "duration": "4 yrs (BS/AB) · 2 yrs (MS)",
+    "units": "128–145 Units",
+    "img": "/images/tccstfi.png",
+    "modalDesc": "Develop comprehensive understanding of human society, behavior, and the natural world. Our programs foster critical thinking, research skills, and global perspectives. Graduates work in education, counseling, communications, research, government, and non-profit sectors."
+  }
+]

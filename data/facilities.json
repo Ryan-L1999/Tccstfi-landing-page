@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "title": "Administration Building",
+    "badge": "Main Campus",
+    "cardDesc": "Houses the President's Office, Registrar, Finance, and all administrative departments.",
+    "img": "/images/tccstfi.png",
+    "modalDesc": "The Administration Building is the central hub of our campus. It houses the President's Office, Registrar, Finance Department, and all major administrative departments. Built with modern architecture, it provides a welcoming environment for students and staff."
+  },
+  {
+    "id": 2,
+    "title": "Science & Technology Center",
+    "badge": "Building B",
+    "cardDesc": "State-of-the-art laboratories for Chemistry, Biology, Physics, and Environmental Science with modern equipment.",
+    "img": "/images/tccstfi.png",
+    "modalDesc": "Our Science & Technology Center features cutting-edge laboratories equipped with modern instruments for hands-on learning. It includes dedicated spaces for Chemistry, Biology, Physics, and Environmental Science research and practical training."
+  },
+  {
+    "id": 3,
+    "title": "Engineering Complex",
+    "badge": "Building C",
+    "cardDesc": "Dedicated facility for Civil, Mechanical, and Electrical Engineering programs with workshop spaces and testing labs.",
+    "img": "/images/tccstfi.png",
+    "modalDesc": "A comprehensive engineering facility featuring workshop spaces, CAD laboratories, and testing equipment for Civil, Mechanical, and Electrical Engineering students. Designed to bridge theory and practical industrial applications."
+  },
+  {
+    "id": 4,
+    "title": "Information Technology Building",
+    "badge": "Tech Hub",
+    "cardDesc": "Computer labs, networking facilities, and software development centers for IT education and research.",
+    "img": "/images/tccstfi.png",
+    "modalDesc": "State-of-the-art IT facility with advanced computer labs, networking simulation centers, and software development studios. Equipped with latest hardware and software for world-class IT education."
+  },
+  {
+    "id": 5,
+    "title": "Business & Management Center",
+    "badge": "Building D",
+    "cardDesc": "Modern facilities for business courses including case study rooms, simulation labs, and meeting spaces.",
+    "img": "/images/tccstfi.png",
+    "modalDesc": "Purpose-built facility for business education featuring case study rooms, business simulation laboratories, and professional meeting spaces. Designed to simulate real-world business environments."
+  },
+  {
+    "id": 6,
+    "title": "Health Sciences Building",
+    "badge": "Medical Wing",
+    "cardDesc": "Nursing simulation labs, anatomy clinics, and health education centers equipped with modern medical equipment.",
+    "img": "/images/tccstfi.png",
+    "modalDesc": "Complete health sciences facility with nursing simulation laboratories, anatomy clinics, and patient care training centers. Equipped with modern medical equipment for comprehensive health education."
+  },
+  {
+    "id": 7,
+    "title": "Library & Learning Commons",
+    "badge": "Knowledge Hub",
+    "cardDesc": "Three-story library with 50,000+ books, digital resources, study areas, and collaborative learning spaces.",
+    "img": "/images/tccstfi.png",
+    "modalDesc": "Our extensive library spans three floors with over 50,000 books, digital databases, quiet study zones, and collaborative learning spaces. A sanctuary for academic research and intellectual growth."
+  },
+  {
+    "id": 8,
+    "title": "Sports & Recreation Complex",
+    "badge": "Sports Center",
+    "cardDesc": "Olympic-size swimming pool, basketball courts, gymnasium, and outdoor sports facilities for student wellness.",
+    "img": "/images/tccstfi.png",
+    "modalDesc": "Premier sports facility featuring an Olympic-size swimming pool, multiple basketball courts, modern gymnasium, and extensive outdoor sports facilities. Dedicated to promoting student health and wellness."
+  }
+]
+

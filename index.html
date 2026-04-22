@@ -19,6 +19,7 @@
     <div class="logo-text">Tccstfi College<small>Excellence in Education</small></div>
   </div>
   <div class="nav-links" id="nl">
+    <a href="https://my-portfolio-kappa-eight-16.vercel.app/" target="_blank" class="portfolio-btn">K-12</a>
     <a data-p="home"       onclick="go('home')"        class="active">Home</a>
     <a data-p="about"      onclick="go('about')">About</a>
     <a data-p="courses"    onclick="go('courses')">Courses</a>
@@ -30,6 +31,7 @@
 </nav>
 
 <div class="mob-nav" id="mn">
+  <a href="https://my-portfolio-kappa-eight-16.vercel.app/" target="_blank" class="portfolio-btn" onclick="closeMob()">K-12</a>
   <a data-m="home"       onclick="go('home');closeMob()"        class="active">Home</a>
   <a data-m="about"      onclick="go('about');closeMob()">About</a>
   <a data-m="courses"    onclick="go('courses');closeMob()">Courses</a>
@@ -116,181 +118,27 @@
 
                                                                <!-- ----Latest News ------ -->
             <div class="card">
-                <div class="ctitle">📰 Latest News</div>
-                <div class="carousel">
-                  <div class="carousel-inner">
-                     <div class="ni">
-                    <div class="nd">
-                        <div class="nd-d">14</div>
-                        <div class="nd-m">Apr</div>
-                    </div>
-                    <div>
-                        <span class="ntag">Academic</span>
-                        <div class="nhead">Brightfield Tops Regional Board Exam with 99.2% Passing Rate</div>
-                        <div class="nsnip">College of Nursing graduates achieved the highest regional passing rate for the 2025 licensure exams.</div>
-                    </div>
-                  </div>
-                 <div class="ni">
-                    <div class="nd">
-                        <div class="nd-d">10</div>
-                        <div class="nd-m">Apr</div>
-                    </div>
-                    <div>
-                        <span class="ntag">Partnership</span>
-                        <div class="nhead">New MOU Signed with Global Tech Solutions Inc.</div>
-                        <div class="nsnip">Opens 200+ internship slots for IT and Engineering students starting June 2025.</div>
+                <div class="card">
+                  <div class="ctitle">📰 Latest News</div>
+                    <div class="carousel">
+                      <div class="carousel-inner" id="news-container"></div>
                     </div>
                 </div>
-                <div class="ni">
-                    <div class="nd">
-                        <div class="nd-d">05</div>
-                        <div class="nd-m">Apr</div>
-                    </div>
-                    <div>
-                        <span class="ntag">Facility</span>
-                        <div class="nhead">Innovation Hub Grand Opening Set for May 2025</div>
-                        <div class="nsnip">State-of-the-art labs and collaborative workspaces now open for students and faculty.</div>
-                    </div>
-                 </div>
-                 <div class="ni">
-                    <div class="nd">
-                        <div class="nd-d">01</div>
-                        <div class="nd-m">Apr</div>
-                    </div>
-                      <div>
-                        <span class="ntag">Award</span>
-                        <div class="nhead">Academy Receives CHED Level III Accreditation</div>
-                        <div class="nsnip">The highest recognition level granted to four degree programs this academic year.</div>
-                   </div>
-                  </div>
-                <div class="ni">
-                    <div class="nd">
-                        <div class="nd-d">14</div>
-                        <div class="nd-m">Apr</div>
-                    </div>
-                    <div>
-                        <span class="ntag">Academic</span>
-                        <div class="nhead">Brightfield Tops Regional Board Exam with 99.2% Passing Rate</div>
-                        <div class="nsnip">College of Nursing graduates achieved the highest regional passing rate for the 2025 licensure exams.</div>
-                    </div>
-                  </div>
-                 <div class="ni">
-                    <div class="nd">
-                        <div class="nd-d">10</div>
-                        <div class="nd-m">Apr</div>
-                    </div>
-                    <div>
-                        <span class="ntag">Partnership</span>
-                        <div class="nhead">New MOU Signed with Global Tech Solutions Inc.</div>
-                        <div class="nsnip">Opens 200+ internship slots for IT and Engineering students starting June 2025.</div>
+            </div>
+
+            <div class="card">
+                <div class="card">
+                  <div class="ctitle">📢 Upcoming News</div>
+                    <div class="carousel">
+                      <div class="carousel-inner" id="upcoming-news-container"></div>
                     </div>
                 </div>
-                <div class="ni">
-                    <div class="nd">
-                        <div class="nd-d">05</div>
-                        <div class="nd-m">Apr</div>
-                    </div>
-                    <div>
-                        <span class="ntag">Facility</span>
-                        <div class="nhead">Innovation Hub Grand Opening Set for May 2025</div>
-                        <div class="nsnip">State-of-the-art labs and collaborative workspaces now open for students and faculty.</div>
-                    </div>
-                 </div>
-                 <div class="ni">
-                    <div class="nd">
-                        <div class="nd-d">01</div>
-                        <div class="nd-m">Apr</div>
-                    </div>
-                      <div>
-                        <span class="ntag">Award</span>
-                        <div class="nhead">Academy Receives CHED Level III Accreditation</div>
-                        <div class="nsnip">The highest recognition level granted to four degree programs this academic year.</div>
-                   </div>
-                  </div>
-                  </div>
-                  </div>
-              </div>
+            </div>
 
                                                                 <!-- -----upcoming Events----- -->
 
             <div>
-            <div class="card" style="margin-bottom:1rem">
-                <div class="ctitle">📅 Upcoming Events</div>
-                <div class="carousel">
-                  <div class="carousel-inner">
-                    <div class="ei">
-                  <div class="edot" style="background:#5c7ded"></div>
-                  <div>
-                    <div class="etit">Enrollment Open House</div>
-                    <div class="emeta">April 25, 2025 · 8:00 AM–5:00 PM · Main Campus</div>
-                  </div>
-                </div>
-                <div class="ei">
-                  <div class="edot" style="background:#4caf83"></div>
-                  <div>
-                    <div class="etit">Annual Science & Technology Fair</div>
-                    <div class="emeta">May 8–10, 2025 · Labs & Covered Courts</div>
-                  </div>
-                </div>
-                <div class="ei">
-                  <div class="edot" style="background:var(--gold)"></div>
-                  <div>
-                    <div class="etit">Innovation Hub Grand Opening</div>
-                    <div class="emeta">May 15, 2025 · 9:00 AM · Building E</div>
-                  </div>
-                </div>
-                <div class="ei">
-                  <div class="edot" style="background:#d85a76"></div>
-                  <div>
-                    <div class="etit">Graduation Ceremony A.Y. 2024–25</div>
-                    <div class="emeta">June 5, 2025 · 8:00 AM · Sports Complex</div>
-                  </div>
-                  </div>
-                <div class="ei">
-                  <div class="edot" style="background:#9b59b6"></div>
-                  <div>
-                    <div class="etit">Freshmen Orientation Week</div>
-                    <div class="emeta">August 4–8, 2025 · All Buildings</div>
-                  </div>
-                </div>
-                <div class="ei">
-                  <div class="edot" style="background:#5c7ded"></div>
-                  <div>
-                    <div class="etit">Enrollment Open House</div>
-                    <div class="emeta">April 25, 2025 · 8:00 AM–5:00 PM · Main Campus</div>
-                  </div>
-                </div>
-                <div class="ei">
-                  <div class="edot" style="background:#4caf83"></div>
-                  <div>
-                    <div class="etit">Annual Science & Technology Fair</div>
-                    <div class="emeta">May 8–10, 2025 · Labs & Covered Courts</div>
-                  </div>
-                </div>
-                <div class="ei">
-                  <div class="edot" style="background:var(--gold)"></div>
-                  <div>
-                    <div class="etit">Innovation Hub Grand Opening</div>
-                    <div class="emeta">May 15, 2025 · 9:00 AM · Building E</div>
-                  </div>
-                </div>
-                <div class="ei">
-                  <div class="edot" style="background:#d85a76"></div>
-                  <div>
-                    <div class="etit">Graduation Ceremony A.Y. 2024–25</div>
-                    <div class="emeta">June 5, 2025 · 8:00 AM · Sports Complex</div>
-                  </div>
-                  </div>
-                <div class="ei">
-                  <div class="edot" style="background:#9b59b6"></div>
-                  <div>
-                    <div class="etit">Freshmen Orientation Week</div>
-                    <div class="emeta">August 4–8, 2025 · All Buildings</div>
-                  </div>
-                </div>
-                </div>
-                 </div>
-            </div>
+           
             <div class="ustrip">
               <span style="font-size:1.1rem;flex-shrink:0;margin-top:2px">📢</span>
               <div><strong>School Update — April 2025</strong>
@@ -531,18 +379,11 @@
 </div>
 
   <div class="wrap">
-    <div class="cg">
-      <div class="cc"><div class="cc-bar b1"></div><div class="cc-head"><div class="cc-ico i1">💻</div><div><div class="cc-name">College of Information Technology</div><div class="cc-lvl">Undergraduate · Graduate</div></div></div><p class="cc-desc">Develop technical expertise in software, networks, and digital systems for today's fast-evolving technology landscape.</p><div class="cc-slbl">Programs Offered</div><div class="cc-tags"><span class="cc-tag">BS Computer Science</span><span class="cc-tag">BS Information Technology</span><span class="cc-tag">BS Data Science</span><span class="cc-tag">MS Information Systems</span><span class="cc-tag">Certificate in Cybersecurity</span></div><div class="cc-foot"><span class="cc-dur">4 yrs (BS) · 2 yrs (MS)</span><span class="cc-u">136–142 Units</span></div></div>
-
-      <div class="cc"><div class="cc-bar b2"></div><div class="cc-head"><div class="cc-ico i2">⚙️</div><div><div class="cc-name">College of Engineering</div><div class="cc-lvl">Undergraduate · Graduate</div></div></div><p class="cc-desc">Build, innovate, and solve real-world problems through rigorous engineering education and hands-on training.</p><div class="cc-slbl">Programs Offered</div><div class="cc-tags"><span class="cc-tag">BS Civil Engineering</span><span class="cc-tag">BS Electrical Engineering</span><span class="cc-tag">BS Mechanical Engineering</span><span class="cc-tag">BS Electronics Engineering</span><span class="cc-tag">MS Engineering Management</span></div><div class="cc-foot"><span class="cc-dur">5 yrs (BS) · 2 yrs (MS)</span><span class="cc-u">170–180 Units</span></div></div>
-
-      <div class="cc"><div class="cc-bar b3"></div><div class="cc-head"><div class="cc-ico i3">🏢</div><div><div class="cc-name">College of Business &amp; Management</div><div class="cc-lvl">Undergraduate · Graduate</div></div></div><p class="cc-desc">Equip future leaders with business acumen, entrepreneurial thinking, and global management principles.</p><div class="cc-slbl">Programs Offered</div><div class="cc-tags"><span class="cc-tag">BS Accountancy</span><span class="cc-tag">BS Business Administration</span><span class="cc-tag">BS Entrepreneurship</span><span class="cc-tag">BS Financial Management</span><span class="cc-tag">MBA</span></div><div class="cc-foot"><span class="cc-dur">4 yrs (BS) · 2 yrs (MBA)</span><span class="cc-u">130–148 Units</span></div></div>
-
-      <div class="cc"><div class="cc-bar b4"></div><div class="cc-head"><div class="cc-ico i4">🩺</div><div><div class="cc-name">College of Health Sciences</div><div class="cc-lvl">Undergraduate · Post-grad</div></div></div><p class="cc-desc">Train compassionate health professionals in evidence-based practice, clinical skills, and patient-centered care.</p><div class="cc-slbl">Programs Offered</div><div class="cc-tags"><span class="cc-tag">BS Nursing</span><span class="cc-tag">BS Pharmacy</span><span class="cc-tag">BS Medical Technology</span><span class="cc-tag">BS Radiologic Technology</span><span class="cc-tag">BS Physical Therapy</span></div><div class="cc-foot"><span class="cc-dur">4 yrs (BS)</span><span class="cc-u">150–160 Units</span></div></div>
-
-      <div class="cc"><div class="cc-bar b5"></div><div class="cc-head"><div class="cc-ico i5">📚</div><div><div class="cc-name">College of Education</div><div class="cc-lvl">Undergraduate · Graduate</div></div></div><p class="cc-desc">Shape skilled educators committed to learner-centered and inclusive quality teaching across all levels.</p><div class="cc-slbl">Programs Offered</div><div class="cc-tags"><span class="cc-tag">BSED – English</span><span class="cc-tag">BSED – Mathematics</span><span class="cc-tag">BSED – Science</span><span class="cc-tag">BEED – Gen. Education</span><span class="cc-tag">Master of Arts in Teaching</span></div><div class="cc-foot"><span class="cc-dur">4 yrs (BS) · 2 yrs (MAT)</span><span class="cc-u">140–152 Units</span></div></div>
-
-      <div class="cc"><div class="cc-bar b6"></div><div class="cc-head"><div class="cc-ico i6">🔬</div><div><div class="cc-name">College of Arts &amp; Sciences</div><div class="cc-lvl">Undergraduate · Graduate</div></div></div><p class="cc-desc">Explore humanities, social sciences, and natural sciences to develop critical thinking and broad perspectives.</p><div class="cc-slbl">Programs Offered</div><div class="cc-tags"><span class="cc-tag">BS Psychology</span><span class="cc-tag">AB Communication</span><span class="cc-tag">BS Biology</span><span class="cc-tag">AB Political Science</span><span class="cc-tag">Master of Psychology</span></div><div class="cc-foot"><span class="cc-dur">4 yrs (BS/AB) · 2 yrs (MS)</span><span class="cc-u">128–145 Units</span></div></div>
+    <div class="cg" id="courses-container">
+      <!-- Course cards will be generated here by JavaScript -->
+    </div>
+    <div id="courses-modal-container">
+      <!-- Course modals will be generated here by JavaScript -->
     </div>
 
     <div style="text-align:center;margin-top:3rem;padding:2rem;background:var(--white);border:1px solid var(--border);border-radius:var(--rl);box-shadow:var(--sh)">
@@ -623,153 +464,9 @@
       <div><div class="fb-t">A Campus Built for Excellence</div><p class="fb-s">Our award-winning campus spans 12 hectares with buildings for each college, recreation areas, and cutting-edge research infrastructure designed to elevate the student experience.</p></div>
       <div class="fb-stats"><div class="fbs"><div class="fbs-n">12</div><div class="fbs-l">Hectares</div></div><div class="fbs"><div class="fbs-n">18</div><div class="fbs-l">Buildings</div></div><div class="fbs"><div class="fbs-n">60+</div><div class="fbs-l">Laboratories</div></div><div class="fbs"><div class="fbs-n">3</div><div class="fbs-l">Libraries</div></div></div>
     </div>
-    <div class="fg">
-      <div class="fc" onclick="openModal()">
-        <div class="fc-img f1">
-          <img src="images/tccstfi.png" alt="">
-        </div>
-        <div class="fc-b">
-          <div class="fc-t">Administration Building</div>
-          <div class="fc-d">Houses the President's Office, Registrar, Finance, and all administrative departments.</div>
-          <div class="fc-badge">Main Campus</div>
-        </div>
-      </div>
-         <div id="fcModal" class="modal">
-          <div class="modal-content">
-            <span class="close-btn" onclick="closeModal()"></span>
-            <img src="/images/tccstfi.png" class="modal-img">
-            <h2>Administration Building</h2>
-             <p>Detailed information about the Administration Building goes here. It houses the President's Office, Registrar, and Finance.</p>
-          </div>
-        </div>
-
-      <div class="fc" onclick="openModal()">
-        <div class="fc-img f2">
-          <img src="images/tccstfi.png" alt="">
-        </div>
-        <div class="fc-b">
-          <div class="fc-t">Administration Building</div>
-          <div class="fc-d">Houses the President's Office, Registrar, Finance, and all administrative departments.</div>
-          <div class="fc-badge">Main Campus</div>
-        </div>
-      </div>
-         <div id="fcModal" class="modal">
-          <div class="modal-content">
-            <span class="close-btn" onclick="closeModal()"></span>
-            <img src="/images/tccstfi.png" class="modal-img">
-            <h2>Administration Building</h2>
-             <p>Detailed information about the Administration Building goes here. It houses the President's Office, Registrar, and Finance.</p>
-          </div>
-        </div>
-
-      <div class="fc" onclick="openModal()">
-        <div class="fc-img f3">
-          <img src="images/tccstfi.png" alt="">
-        </div>
-        <div class="fc-b">
-          <div class="fc-t">Administration Building</div>
-          <div class="fc-d">Houses the President's Office, Registrar, Finance, and all administrative departments.</div>
-          <div class="fc-badge">Main Campus</div>
-        </div>
-      </div>
-         <div id="fcModal" class="modal">
-          <div class="modal-content">
-            <span class="close-btn" onclick="closeModal()"></span>
-            <img src="/images/tccstfi.png" class="modal-img">
-            <h2>Administration Building</h2>
-             <p>Detailed information about the Administration Building goes here. It houses the President's Office, Registrar, and Finance.</p>
-          </div>
-        </div>
-     <div class="fc" onclick="openModal()">
-        <div class="fc-img f4">
-          <img src="images/tccstfi.png" alt="">
-        </div>
-        <div class="fc-b">
-          <div class="fc-t">Administration Building</div>
-          <div class="fc-d">Houses the President's Office, Registrar, Finance, and all administrative departments.</div>
-          <div class="fc-badge">Main Campus</div>
-        </div>
-      </div>
-         <div id="fcModal" class="modal">
-          <div class="modal-content">
-            <span class="close-btn" onclick="closeModal()"></span>
-            <img src="/images/tccstfi.png" class="modal-img">
-            <h2>Administration Building</h2>
-             <p>Detailed information about the Administration Building goes here. It houses the President's Office, Registrar, and Finance.</p>
-          </div>
-        </div>
-  <div class="fc" onclick="openModal()">
-        <div class="fc-img f5">
-          <img src="images/tccstfi.png" alt="">
-        </div>
-        <div class="fc-b">
-          <div class="fc-t">Administration Building</div>
-          <div class="fc-d">Houses the President's Office, Registrar, Finance, and all administrative departments.</div>
-          <div class="fc-badge">Main Campus</div>
-        </div>
-      </div>
-         <div id="fcModal" class="modal">
-          <div class="modal-content">
-            <span class="close-btn" onclick="closeModal()"></span>
-            <img src="/images/tccstfi.png" class="modal-img">
-            <h2>Administration Building</h2>
-             <p>Detailed information about the Administration Building goes here. It houses the President's Office, Registrar, and Finance.</p>
-          </div>
-        </div>
-    <div class="fc" onclick="openModal()">
-        <div class="fc-img f6">
-          <img src="images/tccstfi.png" alt="">
-        </div>
-        <div class="fc-b">
-          <div class="fc-t">Administration Building</div>
-          <div class="fc-d">Houses the President's Office, Registrar, Finance, and all administrative departments.</div>
-          <div class="fc-badge">Main Campus</div>
-        </div>
-      </div>
-         <div id="fcModal" class="modal">
-          <div class="modal-content">
-            <span class="close-btn" onclick="closeModal()"></span>
-            <img src="/images/tccstfi.png" class="modal-img">
-            <h2>Administration Building</h2>
-             <p>Detailed information about the Administration Building goes here. It houses the President's Office, Registrar, and Finance.</p>
-          </div>
-        </div>
-     <div class="fc" onclick="openModal()">
-        <div class="fc-img f7">
-          <img src="images/tccstfi.png" alt="">
-        </div>
-        <div class="fc-b">
-          <div class="fc-t">Administration Building</div>
-          <div class="fc-d">Houses the President's Office, Registrar, Finance, and all administrative departments.</div>
-          <div class="fc-badge">Main Campus</div>
-        </div>
-      </div>
-         <div id="fcModal" class="modal">
-          <div class="modal-content">
-            <span class="close-btn" onclick="closeModal()"></span>
-            <img src="/images/tccstfi.png" class="modal-img">
-            <h2>Administration Building</h2>
-             <p>Detailed information about the Administration Building goes here. It houses the President's Office, Registrar, and Finance.</p>
-          </div>
-        </div>
-      <div class="fc" onclick="openModal()">
-        <div class="fc-img f8">
-          <img src="images/tccstfi.png" alt="">
-        </div>
-        <div class="fc-b">
-          <div class="fc-t">Administration Building</div>
-          <div class="fc-d">Houses the President's Office, Registrar, Finance, and all administrative departments.</div>
-          <div class="fc-badge">Main Campus</div>
-        </div>
-      </div>
-         <div id="fcModal" class="modal">
-          <div class="modal-content">
-            <span class="close-btn" onclick="closeModal()"></span>
-            <img src="/images/tccstfi.png" class="modal-img">
-            <h2>Administration Building</h2>
-             <p>Detailed information about the Administration Building goes here. It houses the President's Office, Registrar, and Finance.</p>
-          </div>
-        </div>
+    <div class="fg" id="facilities-container">
+      <!-- Facility cards will be generated here by JavaScript -->
+      <div id="modal-container"></div>
     </div>
   </div>
 
@@ -972,13 +669,12 @@
         <p class="adm-d">We welcome aspiring students from all backgrounds. Our admission process is straightforward, transparent, and student-friendly. Start your application today!</p>
         <div class="adm-rl">Requirements</div>
         <ul class="adm-list">
-          <li>Original &amp; photocopy of Form 138 (Grade 12 Report Card)</li>
-          <li>PSA-issued Birth Certificate (2 copies)</li>
           <li>Certificate of Good Moral Character</li>
-          <li>2×2 ID Photos — 4 copies, white background</li>
-          <li>Medical Certificate from a licensed physician</li>
-          <li>Passed the Brightfield Admission Test (BAT)</li>
-          <li>Senior High School Diploma or equivalent</li>
+          <li>Original Card/Form 138 (Grade 12 Report Card)</li>
+          <li>4 pcs of Passport size Picture</li>
+          <li>Phtotocopy of PSA Birth Certificate</li>
+          <li>Honorable Dismissal</li>
+          <li>Transcript of Records</li>
         </ul>
         <!-- ---------<div style="margin-top:1.4rem"><a href="https://www.ryanluayon.com/admission" target="_blank" class="btn">Apply Online at ryanluayon.com →</a></div> -->
       </div>
