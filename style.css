@@ -335,7 +335,7 @@ nav{
 
 .home-hero{
   min-height:100vh;
-  background:linear-gradient(to bottom,rgba(10,24,50,.72) 0%,rgba(10,24,50,.5) 50%,rgba(10,24,50,.78) 100%),url(/images/tccstfi.png) center/cover no-repeat;
+  background:linear-gradient(to bottom,rgba(10,24,50,.72) 0%,rgba(10,24,50,.5) 50%,rgba(10,24,50,.5) 100%),url(/Tccstfi-landing-page/images/tccstfi.png) center/cover no-repeat;
   display:flex;
   align-items:center;
   padding:100px 2.5rem 3rem;
@@ -504,11 +504,13 @@ nav{
     margin-bottom:.3rem;
 }
 .vm-txt{
-    font-family:'Playfair Display',serif;
+    font-family:'Times New Roman',serif;
     font-size:.94rem;
     color:#fff;
-    font-style:italic;
+    font-style:bold;
     line-height:1.48;
+    stroke: 0.5px #302525;
+    stroke-width: 6px;
 }
 .carousel {
   height: 300px; 
@@ -698,11 +700,11 @@ nav{
     height:100%;
     object-fit: cover;
     object-position: center;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 .ab-frame-in p{
     font-size:.82rem;
-    padding-right: 30px;
+    padding-right: 70px;
 }
 .ab-badge{
     position:absolute;
@@ -817,7 +819,8 @@ nav{
     box-shadow:var(--sh);
     transition:transform .25s,box-shadow .25s;
     display:flex;
-    flex-direction:column;
+    flex-direction:column;;
+    height: 300px;
 }
 .cc:hover{
     transform:translateY(-5px);
@@ -859,6 +862,15 @@ nav{
     justify-content:center;
     font-size:1.35rem;
     flex-shrink:0;
+}
+.cc-ico i {
+  font-size: 28px;
+  color: #4f46e5;
+}
+
+.cc-ico i:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
 }
 .cc-ico.i1{
     background:#dbeeff;
@@ -929,10 +941,12 @@ nav{
     display:flex;
     justify-content:space-between;
     align-items:center;
+    margin-top: auto;
 }
 .cc-dur{
     font-size:.77rem;
     color:var(--muted);
+    
 }
 .cc-u{
     font-size:.77rem;
@@ -956,6 +970,9 @@ nav{
 .cc-btn:hover{
     background:var(--navy2);
 }
+.cc-bottom {
+    margin-top: auto; /* pushes this whole section to bottom */
+}
 
                                                             /* ===== FACILITIES ===== */
 
@@ -972,6 +989,7 @@ nav{
     align-items:center;
     margin-bottom:2.5rem;
     color:#fff;
+    text-align: center;
 }
 .fb-t{
     font-family:'Playfair Display',serif;
@@ -982,7 +1000,6 @@ nav{
 .fb-s{
     font-size:.92rem;
     opacity:.8;
-    max-width:480px;
 }
 .fb-stats{
     display:flex;
@@ -1144,39 +1161,37 @@ nav{
     gap:.7rem;
     transition:transform .2s,box-shadow .2s;
 }
-.pc:hover{
-    transform:translateY(-4px);
-    box-shadow:var(--shm);
+
+.pc:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shm);
+
 }
-.plogo{
-    width:54px;
-    height:54px;
-    border-radius:12px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-size:.92rem;
-    font-weight:700;
-    color:#fff;
-    flex-shrink:0;
+
+
+.plogo {
+    width: 100%;
+    height: 90px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f5f5f5;
+    transition: height 0.4s ease;
 }
-.plogo.p1{
-    background:var(--navy);
+
+
+.plogo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
-.plogo.p2{
-    background:var(--gold);
+
+
+.pc:hover .plogo img {
+    transform: scale(1);
 }
-.plogo.p3{
-    background:#1d9e75;
-}
-.plogo.p4{
-    background:#c7435a;
-}
-.plogo.p5{
-    background:#378add;
-}
-.plogo.p6{
-    background:#3a8f55;
+.pc:hover .plogo {
+    height: 300px; 
+    position: relative;
 }
 .pn{
     font-family:'Playfair Display',serif;
