@@ -1,0 +1,38 @@
+{
+  "admissionDates": {
+    "title": "Important Admission Dates",
+    "academicYear": "A.Y. 2025–2026",
+    "dates": [
+      {
+        "label": "Application Opens",
+        "date": "March 1, 2025",
+        "note": "Online & Walk-in"
+      },
+      {
+        "label": "Admission Test",
+        "date": "Apr 5–May 30",
+        "note": "By appointment"
+      },
+      {
+        "label": "App. Deadline",
+        "date": "June 15, 2025",
+        "note": "No extensions"
+      },
+      {
+        "label": "Results Release",
+        "date": "June 25, 2025",
+        "note": "Via email & portal"
+      },
+      {
+        "label": "Enrollment Period",
+        "date": "July 1–25, 2025",
+        "note": "First come basis"
+      },
+      {
+        "label": "Classes Begin",
+        "date": "Aug 11, 2025",
+        "note": "1st Semester"
+      }
+    ]
+  }
+}
