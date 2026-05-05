@@ -335,7 +335,7 @@ nav{
 
 .home-hero{
   min-height:100vh;
-  background:linear-gradient(to bottom,rgba(10,24,50,.72) 0%,rgba(10,24,50,.5) 50%,rgba(10,24,50,.5) 100%),url(/Tccstfi-landing-page/images/tccstfi.png) center/cover no-repeat;
+  background:linear-gradient(to bottom,rgba(10,24,50,.72) 0%,rgba(10,24,50,.5) 50%,rgba(10,24,50,.5) 100%),url(./images/tccstfi.png) center/cover no-repeat;
   display:flex;
   align-items:center;
   padding:100px 2.5rem 3rem;
